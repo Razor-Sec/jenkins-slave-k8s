@@ -192,4 +192,11 @@ Then Build now
 ## Test build multi project
 ![](test3.png)
 
+## Benefit using Kubernetes as Agent
+- Powerful
+- Static Agent
+- Not Need VM
+- Ability to define tools that want to use (Ex. using node , maven , alpine, etc)
+- Auto Scalable
+
 ## DONE :D
