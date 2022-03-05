@@ -89,6 +89,7 @@ Manage Jenkins > Manage Credentials > Jenkins > Glocal credentials > Add Credent
 
 ### Install kubernetes plugin on jenkins
 Going to Manage Jenkins > Manage Plugins > Search Kubernetes , Then Checklist and Install without Restart , Wait until finish
+
 ![](pict13.png)
 
 ### Configuration Cloud for Kubernets Pods
