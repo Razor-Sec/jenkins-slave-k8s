@@ -194,7 +194,7 @@ Then Build now
 
 ## Benefit using Kubernetes as Agent
 - Powerful
-- Static Agent
+- Dynamic Agent
 - Not Need VM
 - Ability to define tools that want to use (Ex. using node , maven , alpine, etc)
 - Auto Scalable
