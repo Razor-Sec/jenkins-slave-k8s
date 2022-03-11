@@ -199,4 +199,7 @@ Then Build now
 - Ability to define tools that want to use (Ex. using node , maven , alpine, etc)
 - Auto Scalable
 
+# Referensi
+- https://plugins.jenkins.io/kubernetes/
+
 ## DONE :D
