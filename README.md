@@ -67,7 +67,7 @@ kubectl get ns
 kubectl create sa jenkins -n jenkins
 kubectl get sa -n jenkins
 kubectl create rolebinding jenkins-admin-binding --clusterrole=admin --serviceaccount=jenkins:jenkins --namespace=jenkins
-kubectl get rolebinding
+kubectl get ns,sa,rolebinding -n jenkins
 ```
 ![](pict10.png)
 
@@ -110,6 +110,9 @@ And save
 docker container stop my-jenkins
 docker container start my-jenkins
 ```
+or
+on browser : 
+`(jenkins_url)/safeRestart`
 Then going to dashboard and wait until login
 ## Test pipeline 1
 Going to New Item > Enter project name > Select Pipeline , Then Going to Pipeline and Enter this yaml  and save 
